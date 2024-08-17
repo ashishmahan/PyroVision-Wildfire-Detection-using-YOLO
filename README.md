@@ -29,9 +29,11 @@ TensorFlow/PyTorch: Frameworks for building and training the deep learning model
 Streamlit: For creating an interactive web application to demonstrate the wildfire detection capabilities.
 
 
+
 **Dataset**
 
 The model was trained on a custom dataset that includes images of wildfires in various environments, weather conditions, and scales. The dataset was augmented and preprocessed to improve the model's robustness against false positives and varying environmental factors.
+
 
 *How It Works*
 
@@ -41,11 +43,13 @@ Detection: YOLOv8 processes the input and identifies regions where wildfires are
 
 Output: The model outputs bounding boxes around detected wildfire regions, along with a confidence score indicating the likelihood of a wildfire.
 
+
 *Applications*
 
 Early Warning Systems: Integrating PyroVision into early warning systems for forest management and disaster response.
 Surveillance: Deploying the model on drones or fixed surveillance cameras for continuous monitoring of fire-prone areas.
 Environmental Monitoring: Using satellite images to monitor large forests and detect wildfires at a larger scale.
+
 
 
 **Getting Started**
@@ -72,4 +76,5 @@ python detect.py --source [path_to_image_or_video]
 Visualize Results: Use the provided Streamlit app to visualize detection results in real-time.
 
 **Contributing**
+
 We welcome contributions to enhance the capabilities of PyroVision. If you have suggestions, bug reports, or improvements, feel free to create a pull request or open an issue.
