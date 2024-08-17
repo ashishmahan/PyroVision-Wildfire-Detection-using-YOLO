@@ -1,4 +1,4 @@
-**PyroVision: Wildfire Detection using YOLO**
+#PyroVision: Wildfire Detection using YOLO
 
 **Overview**
 
