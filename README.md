@@ -58,19 +58,16 @@ To get started with PyroVision, follow these steps:
 
 **Clone the Repository:**
 
-bash
 git clone https://github.com/ashishmahan/PyroVision-Wildfire-Detection-using-YOLO.git
 
 cd PyroVision-Wildfire-Detection-using-YOLO
 
 **Install Dependencies:**
 
-bash
 pip install -r requirements.txt
 
 **Run the Model:**
 
-bash
 python detect.py --source [path_to_image_or_video]
 
 Visualize Results: Use the provided Streamlit app to visualize detection results in real-time.
