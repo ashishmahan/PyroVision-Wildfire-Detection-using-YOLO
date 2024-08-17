@@ -9,15 +9,25 @@ This project utilizes the YOLOv8 architecture to accurately and efficiently iden
 **Key Features**
 
 Real-time Detection: Capable of processing live video feeds or static images to detect wildfire occurrences in real time.
+
 High Accuracy: YOLOv8 provides state-of-the-art accuracy, ensuring reliable detection of even small-scale fires.
+
 Efficient Model: YOLO's efficiency allows for fast processing, making it suitable for deployment in resource-constrained environments such as drones or edge devices.
+
 Scalability: The model can be adapted to work with various input sources, including satellite imagery, CCTV cameras, or mobile devices.
-Technologies Used
+
+**Technologies Used**
+
 YOLOv8: The latest version of the YOLO object detection algorithm, known for its speed and accuracy.
+
 Python: The core programming language used for implementing the model.
+
 OpenCV: A powerful library for real-time computer vision tasks.
+
 TensorFlow/PyTorch: Frameworks for building and training the deep learning model.
+
 Streamlit: For creating an interactive web application to demonstrate the wildfire detection capabilities.
+
 
 **Dataset**
 
